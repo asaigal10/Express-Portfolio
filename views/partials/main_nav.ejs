@@ -1,0 +1,57 @@
+    <!--Main Nav-->
+    
+    <nav class="navbar navbar-expand-lg" style="background-color: black;">
+            <a class="navbar-brand" href="/">
+              <img src="/Assets/images/Logo.png" alt="Bootstrap" width="60" height="48">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+          
+            <% if (title == "Home"){ %>
+              <li class="nav item active">
+            <% } else { %>
+            <li class="nav-item">
+            <% } %>
+              <a class="nav-link" aria-current="page" href="/home" style="color: #d3d3d3;"><b> Home</b></a>
+            </li>
+  
+            <% if (title == "About") { %>
+              <li class="nav item active">
+            <% } else { %>
+            <li class="nav-item">
+            <% } %>
+              <a class="nav-link" aria-current="page" href="/about" style="color: #d3d3d3;"><b>About</b></a>
+            </li>
+  
+            <% if (title == "Projects") { %>
+              <li class="nav item active">
+            <% } else { %>
+            <li class="nav-item">
+            <% } %>
+              <a class="nav-link" aria-current="page" href="/projects" style="color: #d3d3d3;"><b>Projects</b></a>
+            </li>
+  
+            <% if (title == "Services") { %>
+              <li class="nav item active">
+            <% } else { %>
+            <li class="nav-item">
+            <% } %>
+              <a class="nav-link" aria-current="page" href="/services" style="color: #d3d3d3;"><b>Services</b></a>
+            </li>
+  
+            <% if (title == "Contact") { %>
+              <li class="nav item active">
+            <% } else { %>
+            <li class="nav-item">
+            <% } %>
+              <a class="nav-link" aria-current="page" href="/contact" style="color: #d3d3d3;"><b>Contact</b></a>
+            </li>
+  
+          </ul>
+        </div>
+    </nav>
+   

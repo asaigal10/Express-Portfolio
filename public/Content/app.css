@@ -1,0 +1,119 @@
+/* Name: Amrit Saigal*/
+/* File Name:Express Portfolio*/
+/* Student Number: 301217316*/
+/* September 28, 2022 */
+body {
+  padding: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  background-color: #252525;
+  color: white;
+}
+
+.home {
+text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.box{
+  border-style:solid;
+  width: 900px;
+  margin-top: 200px;
+}
+
+table,
+td {
+    border: 3px solid #d3d3d3;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.image {
+  flex-basis: 40%;
+  float: left;
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 30%;
+  float: right;
+}
+
+button{
+  margin-top: 10px;
+  float: right;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=button] {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type=button]:hover {
+  background-color: red;
+}
+
+
+.container1 {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  } } 
+  
+.container1 input,textarea {
+  width: 100%;
+  clear: both;
+}
+
+.table2 {
+  margin-top: 40px;
+}
+
+.table2 , td{
+  border: 1px solid white;
+
+}
+
+.table2 thead, tbody {
+  background-color: #252525;
+  font-size: 18px;
+  bottom: 20%;
+}
